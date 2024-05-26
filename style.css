@@ -1,0 +1,93 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #e6e6fa;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.box {
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+h1{
+    margin-bottom: 50px;
+}
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+.image1, .image2 {
+    display: block;
+    margin: auto;
+}
+
+.image1 {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.image2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 900px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.boldlist {
+    font-weight: bold;
+}
+.box a {
+    display: block;
+    padding: 10px;
+    background-color: #e8e8e8;
+    text-align: center;
+    border-radius: 4px;
+    color: #0056b3;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.box a:hover {
+    background-color: #d1e0e0;
+    color: #003366;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.boldlist {
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="en"> <!-- Opens the HTML document specifying English language -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Sets character encoding to UTF-8 -->
+    <title>My Form</title> <!-- Title of the web page shown in the browser tab -->
+</head>
+
+<body>
+    <h1>Image Finder</h1> <!-- Main heading of the page -->
+    <form action="/find-image" method="post">
+    <!-- Form element with a POST method to send data to the server at the specified action URL -->
+        <label for="image_name">Image name:</label> <!-- Label for the text input field -->
+        <input type="text" id="image_name" name="image_name"> <!-- Text input field for users to enter the image name -->
+        <button type="submit">Get Image</button> <!-- Submit button to send the form data -->
+    </form>
+</body>
+</html>
